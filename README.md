@@ -1,4 +1,4 @@
-#Pokedex Website
+# Pokedex Website
 
 This website make use of Pokeapi that fetch and show all the Pokemon data, including showing pokemon from different regions.
 
