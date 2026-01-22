@@ -12,7 +12,8 @@ const router = createBrowserRouter(
       <Route path="" element={<MainSection />} />
       <Route path='card/:name' element={<CardDetails />} />
     </Route>
-  )
+  ),
+  { basename: '/Pokedex' }
 )
 
 createRoot(document.getElementById('root')).render(

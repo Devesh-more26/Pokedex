@@ -2,7 +2,7 @@
   "name": "pokemon_card_app",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://github.com/Devesh-more26/Pokedex",
+  "homepage": "https://devesh-more26.github.io/Pokedex",
   "type": "module",
   "scripts": {
     "dev": "vite",
