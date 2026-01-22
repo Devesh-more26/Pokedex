@@ -1,5 +1,5 @@
 #Pokedex Website
 
-<img src="kanto.png">
+<img src="Kanto.png">
 
 <img src="Hoean.png">
