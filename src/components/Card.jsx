@@ -39,7 +39,7 @@ function Card({ url, name, card }) {
             to={name ? `/card/${name}` : '#'}
             onClick={() => saveToLocalStorage(url)}
         >
-            <div className="h-[35vh] w-[15vw] flex-col justify-center rounded-2xl border-black border-[1.5px] m-3 cursor-pointer">
+            <div className="h-[200px] sm:h-[280px] w-[136px] sm:w-[200px] flex-col justify-center rounded-2xl border-black border-[1.5px] m-3 cursor-pointer">
                 <div className="bg-green-300 w-full h-[70%] rounded-xl flex justify-center">
                     {pokemonSprite ? <img src={pokemonSprite} alt="pokemon" className="h-33" /> : "loading..."}
                 </div>
